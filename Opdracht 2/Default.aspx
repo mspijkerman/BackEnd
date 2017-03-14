@@ -57,12 +57,19 @@
             </tr>
             <tr>
                 <td>
-                    <asp:Button ID="btnMaakKaart" runat="server" Text="Button" OnClick="btnMaakKaart_Click" />
+                    <asp:Button ID="btnMaakKaart" runat="server" Text="Verzenden" OnClick="btnMaakKaart_Click" />
                 </td>
                 <td>&nbsp;</td>
             </tr>
         </table>
     </asp:Panel>
+        <asp:Label ID="lbl1" runat="server"></asp:Label>
+        <br />
+        <asp:Label ID="lbl2" runat="server"></asp:Label>
+        <br />
+        <asp:Label ID="lbl3" runat="server"></asp:Label>
+        <br />
+        <asp:Label ID="lbl4" runat="server"></asp:Label>
     </form>
 </body>
 </html>

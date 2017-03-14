@@ -38,9 +38,9 @@ public partial class _Default : System.Web.UI.Page
                 Hobby += chkHobby.Items[i].Text + " ";
             }
         }
-        Response.Write("Naam: " + Naam + "<br />");
-        Response.Write("Hobby: "+ Hobby + "<br />");
-        Response.Write("Opleiding: " + Opleiding + "<br />");
-        Response.Write("Geslacht " + Geslacht + "<br />");
+        lbl1.Text = ("Naam: " + Naam + "<br />");
+        lbl2.Text = ("Hobby: "+ Hobby + "<br />");
+        lbl3.Text = ("Opleiding: " + Opleiding + "<br />");
+        lbl4.Text = ("Geslacht " + Geslacht + "<br />");
     }
 }
